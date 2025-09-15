@@ -16,11 +16,27 @@ This repository contains Python implementations of the Bayesian sports modeling 
 - **Libraries**: Uses Python equivalents (pymc, arviz, pandas, numpy, scipy)
 - **Implementation**: Modern Python workflows and best practices
 
+## Project Structure
+
+- **Chapter 3**: Probability Rules and Fundamentals
+- **Chapter 4**: Basic Probability Applications
+- **Chapter 5**: Probability Distributions
+- **Chapter 6**: Conjugate Prior Models
+- **Chapter 7**: Beta-Binomial and Gamma-Poisson Models
+- **Chapter 8**: Interval Estimation and Comparison
+
 ## Getting Started
 
 1. Clone this repository
 2. Install required Python packages: `pip install pymc arviz pandas numpy scipy matplotlib seaborn`
 3. Navigate to specific chapter folders for detailed documentation
+
+## Recent Updates
+
+### Chapter 8: Interval Estimation and Comparison
+- **beta-binomial-intervals.py**: Compares Bayesian credible intervals, frequentist confidence intervals, and true ranges for win rate estimation
+- **gamma-poisson-intervals.py**: Compares Bayesian credible intervals and frequentist confidence intervals for goal scoring rate estimation
+- Both files include custom visualization with black interval bars, blue dots for minimums, and red dots for maximums
 
 ## Technologies Used
 
